@@ -5,22 +5,19 @@ body {
 }
 
 header, #principal, #second, #contato, #stream {
-	
+  
 }
 
 .link-menu {
   color: #fff;
   background-color: #555;
 }
-
 .f {
   background-color: #5b305a;
 }
-
 .l {
   background-color: #e49756;
 }
-
 .m {
   background-color: #e04b5a;
 }
@@ -42,4 +39,91 @@ footer {
   background-color: #333;
   color: #ddd;
 }
+#menu li{
+  list-style: none;
+  text-decoration:none;
+}
+#menu a{
+  text-decoration:none;
+}
+#menu{
+  display: flex;
+}
+.item-menu{
+  padding:0px 0px 10px 10px;
+  
+}
+.link-menu{
+  border-radius: 10px;
+  padding: 10px;
+}
+#logo{
+  width: 200px;
+  height: 200px;
+  
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+#principal img{
+  width: 200px;
+  margin-left: 400px;
+}
+#sec_ctd{
+  justify-content: center;
+  margin-right: 550px;
+}
+h1{
+  text-align: right;
+  font-size: 40px;
+}
+#sec_ctd p{
+  text-align: justify;
+  margin-bottom: 85px;
+  margin-right: 70px;
+}
+#second img{
+  width: 200px;
+  margin: 40px;
+}
+#second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contato{
+  display: flex ;
+  justify-content: space-around;
+  align-items:center;
+}
+#contato a{
+  color: #fff;
+}
+#social img{
+  width: 30px;
+  height: 30px;
+}
+#descricao{
+  margin: 90px 90px;
+  padding: 50px;
+  border: 1px solid;
+}
+#acesso {
+  width: 300px;
+  height: 140px;
+  box-shadow: 10px #333 ;
+}
+#social a{
+  align-items:center;
+  justify-content: center;
 
+}
